@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/ad4c9129-144b-4372-b157-9aeffa386bec>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 50f727e6-f0d5-47a0-a9f0-681a23db03f9
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 50f727e6-f0d5-47a0-a9f0-681a23db03f9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5bccb21d-0b50-40d7-bd74-f2bf962c6171
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5bccb21d-0b50-40d7-bd74-f2bf962c6171>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6a1adcfb-d442-40d1-9d48-41a4ea42b7a7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    anchorModule: false
+    camera: false
+    createAnchorButton: false
+    materialNames: false
+    materials: false
+    prefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - anchorModule: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      createAnchorButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      materialNames: !<string[]>
+        []
+      materials: !<reference.Material[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType anchorModule
+    - // @input AssignableType_1 createAnchorButton
+    - // @input SceneObject camera
+    - // @input Asset.ObjectPrefab prefab
+    - "// @input string[] materialNames"
+    - "// @input Asset.Material[] materials"

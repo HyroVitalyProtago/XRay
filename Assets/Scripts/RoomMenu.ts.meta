@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/fb1da0a9-f1ec-4f2f-9906-671a749e7a91>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fc7899b4-1c65-4628-ba44-f6a888c693d6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fc7899b4-1c65-4628-ba44-f6a888c693d6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8db24199-ce6c-4801-b638-bd99384fdc3e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8db24199-ce6c-4801-b638-bd99384fdc3e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8e85cf58-790f-4b4f-bf5c-507a94c1056c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    addRoomButton: false
+    bathroomButton: false
+    bedroomButton: false
+    gardrobeButton: false
+    kitchenButton: false
+    livingRoomButton: false
+    officeButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - addRoomButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      kitchenButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      bedroomButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      livingRoomButton: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      officeButton: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      gardrobeButton: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      bathroomButton: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject addRoomButton
+    - // @input AssignableType kitchenButton
+    - // @input AssignableType_1 bedroomButton
+    - // @input AssignableType_2 livingRoomButton
+    - // @input AssignableType_3 officeButton
+    - // @input AssignableType_4 gardrobeButton
+    - // @input AssignableType_5 bathroomButton

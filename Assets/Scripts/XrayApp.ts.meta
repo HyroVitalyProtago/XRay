@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/6ad0c6ad-8c85-4e2c-8958-dbdc25f20da7>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 77fa49a2-f5d8-4a70-ac0f-0a9151789361
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 77fa49a2-f5d8-4a70-ac0f-0a9151789361
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8dde958b-764e-4e46-a3da-7d8bb9c4e1bb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8dde958b-764e-4e46-a3da-7d8bb9c4e1bb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: fb7bd300-01bd-4bc2-9175-029b6233b6c4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    anchorNotification: false
+    anchorPlacementController: false
+    camera: false
+    clearButton: false
+    createPictureButton: false
+    createXrayButton: false
+    database: false
+    prefab: false
+    roomMenu: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - database: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      roomMenu: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      createXrayButton: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      createPictureButton: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      clearButton: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      anchorNotification: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      anchorPlacementController: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType database
+    - // @input SceneObject camera
+    - // @input AssignableType_1 roomMenu
+    - // @input AssignableType_2 createXrayButton
+    - // @input AssignableType_3 createPictureButton
+    - // @input AssignableType_4 clearButton
+    - // @input Asset.ObjectPrefab prefab
+    - // @input Component.Image anchorNotification
+    - // @input AssignableType_5 anchorPlacementController

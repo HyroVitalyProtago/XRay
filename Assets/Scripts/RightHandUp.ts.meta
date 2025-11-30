@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/f1b91ea5-3833-489e-97c2-6f2f1a9bcbc6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8c152585-85d3-4782-aeb9-b5db68e72b5a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8c152585-85d3-4782-aeb9-b5db68e72b5a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6268ca70-d629-43b2-81f9-c02bd0bc21f7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6268ca70-d629-43b2-81f9-c02bd0bc21f7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0a22f568-654f-4c47-9a84-f90089f86d67
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    handType: false
+    object: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handType: right
+      object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string handType = "both" {"widget":"combobox", "values":[{"label":"Left", "value":"left"}, {"label":"Right", "value":"right"}, {"label":"Both", "value":"both"}]}'
+    - // @input SceneObject object

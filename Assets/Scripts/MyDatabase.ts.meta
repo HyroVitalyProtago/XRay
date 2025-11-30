@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/d26c8abe-67cc-4d0b-9c55-62a3becb45c3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7a949205-44fc-4a08-b72f-0eeb03ba7679
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7a949205-44fc-4a08-b72f-0eeb03ba7679
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3787a29e-f5bc-43f7-b4ec-3bc64fdf81e7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3787a29e-f5bc-43f7-b4ec-3bc64fdf81e7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: fe17d0c2-c1b0-4d3f-85e7-0d081ed84735
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bucketName: false
+    supabaseProject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - supabaseProject: !<reference.SupabaseProject> 00000000-0000-0000-0000-000000000000
+      bucketName: pics
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.SupabaseProject supabaseProject {"hint":"Supabase Project asset from Asset Browser"}'
+    - '// @input string bucketName = "pics" {"hint":"Storage bucket name"}'

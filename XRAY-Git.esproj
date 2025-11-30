@@ -1,0 +1,43 @@
+studioVersion:
+  major: 5
+  minor: 15
+  patch: 0
+  build: 25101318
+  type: Public
+coreVersion: 330
+clientVersion: 13.60
+updateCheckpoint: 76
+sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: XRay
+  lensDescriptors:
+    []
+  lensApplicability:
+    - Front
+    - Back
+  lensClientCompatibilities:
+    - Spectacles
+  platformBundlesEnabled: false
+  iconHash: 574b64513263a0ef3ca34dbe8fd51929
+  videoPreviewHash: ""
+  fromTemplateName: Spatial Image Gallery
+  fromTemplateUrl: Lens Studio 5.15.0.25101318
+  activationCamera: Front
+  sourceMapEnabled: false
+  usingMinClientVersions: false
+  androidMinClientVersion:
+    major: 0
+    minor: 0
+    patch: 0
+    build: 0
+  iOSMinClientVersion:
+    major: 0
+    minor: 0
+    patch: 0
+    build: 0
+  documentId: 9d843be7-6376-4fe6-8475-2903c5699d8e
+  originalDocumentId: f6e5708b-9838-4630-8ad2-0b390695d771
