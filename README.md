@@ -1,7 +1,4 @@
-<video loop autoplay>
-  <source src="./Assets/Videos/XRay low - SD 480p.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<video src="./Assets/Videos/XRay low - SD 480p.mp4" type="video/mp4" loop autoplay></video>
 
 > *in the video upon, you will see how to use the app. The video is cut after the picture of the fridge is taken because the Snapchat Spectacles are not able to capture textures from camera using the internal tool.*
 
