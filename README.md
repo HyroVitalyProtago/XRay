@@ -1,4 +1,4 @@
-<video src="https://github.com/HyroVitalyProtago/XRay/raw/refs/heads/main/Assets/Videos/XRay%20low%20-%20SD%20480p.mp4" type="video/mp4" loop autoplay></video>
+<img src="./XRay-low-SD-480p.gif"/>
 
 > *in the video upon, you will see how to use the app. The video is cut after the picture of the fridge is taken because the Snapchat Spectacles are not able to capture textures from camera using the internal tool.*
 
